@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class ProfileContriller extends Controller
+class ProfileController extends Controller
 {
     //
     public function add()

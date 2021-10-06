@@ -23,7 +23,7 @@
         
         <!-- Styles -->
         {{-- Laravel標準で用意されているCSSを読み込む --}}
-        <link href="{{ secure_asset('css/admin.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/profile.css') }}" rel="stylesheet">
     </head>
     <body>
         <div id="app">

@@ -30,23 +30,22 @@
     <body>
         <div id="app">
             {{-- 画面上部に表示するナビゲーションバー --}}
-            
-            <nav class="navber navber-expand-md navber-dark navber-laravel">
+            <nav class="navbar navbar-expand-md navbar-dark navbar-laravel">
                 <div class="container">
-                    <a class="navber-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="{{ url('/') }}">
                         {{ config('app.name', 'Laravel') }}
                     </a>
-                        <button class="navber-toggler" type="button" data-toggle="collapse" data-target="#navberSupportedContent" aria-controls="navberSupportedContent" aria-expanded="false" aria-label="Toggle nevigation">
-                        <span class="navber-toggler-icon"></span>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle nevigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                     
-                    <div class="collapse navber-collapse" id="navberSupportedContent">
-                        <!-- Left Side of Navber -->
-                        <ul class="navber-nav mr-auto">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Left Side of Navbar -->
+                        <ul class="navbar-nav mr-auto">
                         </ul>
                     
-                        <!-- Right Side of Navber -->
-                        <ul class="navber-nav ml-auto">
+                        <!-- Right Side of Navbar -->
+                        <ul class="navbar-nav ml-auto">
                         </ul>
                     </div>
                 </div>
@@ -59,4 +58,4 @@
             </main>
         </div>
     </body>
-</html>
+</html

@@ -48,7 +48,7 @@
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name"remove" value="true">画像を削除
+                                    <input type="checkbox" class="form-check-input" name="remove" value="true">画像を削除
                                 </label>
                             </div>
                         </div>
@@ -66,8 +66,8 @@
                     <div class="col-md-4 mx-auto">
                         <h2>編集履歴</h2>
                         <ul class="list-group">
-                            @if ($profile_form->myhistories != NULL)
-                                @foreach ($profile_form->myhistories as $history)
+                            @if ($profile_form->my_histories != NULL)
+                                @foreach ($profile_form->my_histories as $history)
                                     <li class="list-group-item">{{ $history->edited_at }}</li>
                                 @endforeach
                             @endif
